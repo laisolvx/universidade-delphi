@@ -1,0 +1,961 @@
+inherited FUniversidade: TFUniversidade
+  Caption = 'FUniversidade'
+  ClientHeight = 528
+  ClientWidth = 722
+  OnShow = FormShow
+  ExplicitWidth = 728
+  ExplicitHeight = 557
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited Image1: TImage
+    Width = 722
+    ExplicitWidth = 846
+  end
+  inherited PageControl1: TPageControl
+    Width = 722
+    Height = 452
+    ExplicitTop = 79
+    ExplicitWidth = 846
+    ExplicitHeight = 441
+    inherited Localizar: TTabSheet
+      ExplicitWidth = 838
+      ExplicitHeight = 431
+      inherited sFrameBar1: TsFrameBar
+        Width = 714
+        Height = 442
+        ExplicitWidth = 838
+        ExplicitHeight = 431
+      end
+    end
+    inherited Texto: TTabSheet
+      ExplicitLeft = 4
+      ExplicitTop = 6
+      ExplicitWidth = 838
+      ExplicitHeight = 431
+      inherited ScrollBox1: TScrollBox
+        Width = 714
+        Height = 442
+        ExplicitLeft = 3
+        ExplicitWidth = 682
+        ExplicitHeight = 442
+        object Label13: TLabel
+          Left = 123
+          Top = 3
+          Width = 353
+          Height = 42
+          Caption = 'UniversidadeProdev'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -35
+          Font.Name = 'Tahoma'
+          Font.Style = [fsBold]
+          ParentFont = False
+        end
+        object PageControl2: TPageControl
+          Left = 27
+          Top = 104
+          Width = 650
+          Height = 335
+          ActivePage = TabSheet2
+          TabOrder = 0
+          object TabSheet1: TTabSheet
+            Caption = 'Alunos'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = [fsBold]
+            ParentFont = False
+            ExplicitWidth = 781
+            ExplicitHeight = 312
+            object Label3: TLabel
+              Left = 36
+              Top = 66
+              Width = 96
+              Height = 16
+              Caption = 'Nome do Aluno'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWindowText
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = [fsBold]
+              ParentFont = False
+            end
+            object Label10: TLabel
+              Left = 330
+              Top = 126
+              Width = 37
+              Height = 16
+              Caption = 'Curso'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWindowText
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = [fsBold]
+              ParentFont = False
+            end
+            object Label4: TLabel
+              Left = 36
+              Top = 126
+              Width = 22
+              Height = 16
+              Caption = 'CPF'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWindowText
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = [fsBold]
+              ParentFont = False
+            end
+            object Label14: TLabel
+              Left = 302
+              Top = 0
+              Width = 65
+              Height = 23
+              Caption = 'Alunos'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWindowText
+              Font.Height = -19
+              Font.Name = 'Tahoma'
+              Font.Style = [fsBold]
+              ParentFont = False
+            end
+            object Label5: TLabel
+              Left = 36
+              Top = 198
+              Width = 38
+              Height = 16
+              Caption = 'E-mail'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWindowText
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = [fsBold]
+              ParentFont = False
+            end
+            object Label6: TLabel
+              Left = 330
+              Top = 66
+              Width = 129
+              Height = 16
+              Caption = 'Data de Nascimento'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWindowText
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = [fsBold]
+              ParentFont = False
+            end
+            object Label12: TLabel
+              Left = 335
+              Top = 198
+              Width = 121
+              Height = 16
+              Caption = 'Matr'#237'cula do Aluno'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWindowText
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = [fsBold]
+              ParentFont = False
+            end
+            object sEdit_Text1: TsEdit_Text
+              Left = 36
+              Top = 88
+              Width = 221
+              Height = 24
+              Color = clMenu
+              TabOrder = 0
+              BoundLabel.Indent = 0
+              BoundLabel.Font.Charset = DEFAULT_CHARSET
+              BoundLabel.Font.Color = clWindowText
+              BoundLabel.Font.Height = -11
+              BoundLabel.Font.Name = 'Tahoma'
+              BoundLabel.Font.Style = []
+              BoundLabel.Layout = sclLeft
+              BoundLabel.MaxWidth = 0
+              BoundLabel.UseSkinColor = True
+              SkinData.SkinSection = 'EDIT'
+              AboutVersaoAutor = #174'2010/v2.0 por J'#250'nior'
+              ZZ_NomeCampo = 'NOME_ALUNO'
+              ZZ_RequeridoSair = False
+              ZZ_NomeChave = 'NOME_ALUNO'
+              ZZ_Titulo = 'NOME_ALUNO'
+              ZZ_RequeridoGravar = False
+              ZZ_ConsistirData = False
+              ZZ_ConsistirHora = False
+              ZZ_ZeroEsquerda = 0
+              ZZ_OrdemChave = 0
+              ZZ_Indice = True
+              ZZ_DesabilitarSair = False
+              ZZ_AutoIncremente = False
+              ZZ_CampoTabela = True
+              ZZ_LimpaCampo = True
+              ZZ_CampoProtegido = False
+              ZZ_AnulaEventos = False
+              ZZ_OrdemEditarOnExit = 0
+              ZZ_CampoUsuarioSistema = False
+              ZZ_AnulaDBEnter = False
+              ZZ_ParametroRPT = False
+              ZZ_ParametroRPTItem = 0
+              ZZ_ParametroDLLEntrada = False
+              ZZ_ParametroDLLEntradaItem = 0
+              ZZ_ParametroDLLSaida = False
+              ZZ_ParametroDLLSaidaItem = 0
+            end
+            object sEdit_Text2: TsEdit_Text
+              Left = 36
+              Top = 148
+              Width = 246
+              Height = 24
+              Color = clMenu
+              Enabled = False
+              ReadOnly = True
+              TabOrder = 1
+              BoundLabel.Indent = 0
+              BoundLabel.Font.Charset = DEFAULT_CHARSET
+              BoundLabel.Font.Color = clWindowText
+              BoundLabel.Font.Height = -11
+              BoundLabel.Font.Name = 'Tahoma'
+              BoundLabel.Font.Style = []
+              BoundLabel.Layout = sclLeft
+              BoundLabel.MaxWidth = 0
+              BoundLabel.UseSkinColor = True
+              SkinData.SkinSection = 'EDIT'
+              AboutVersaoAutor = #174'2010/v2.0 por J'#250'nior'
+              ZZ_NomeCampo = 'CPF_ALUNO'
+              ZZ_RequeridoSair = False
+              ZZ_Titulo = 'CPF_ALUNO'
+              ZZ_RequeridoGravar = False
+              ZZ_ConsistirData = False
+              ZZ_ConsistirHora = False
+              ZZ_ZeroEsquerda = 0
+              ZZ_OrdemChave = 0
+              ZZ_Indice = True
+              ZZ_DesabilitarSair = False
+              ZZ_AutoIncremente = False
+              ZZ_CampoTabela = True
+              ZZ_LimpaCampo = True
+              ZZ_CampoProtegido = False
+              ZZ_AnulaEventos = False
+              ZZ_OrdemEditarOnExit = 0
+              ZZ_CampoUsuarioSistema = False
+              ZZ_AnulaDBEnter = False
+              ZZ_ParametroRPT = False
+              ZZ_ParametroRPTItem = 0
+              ZZ_ParametroDLLEntrada = False
+              ZZ_ParametroDLLEntradaItem = 0
+              ZZ_ParametroDLLSaida = False
+              ZZ_ParametroDLLSaidaItem = 0
+            end
+            object sEdit_Text7: TsEdit_Text
+              Left = 330
+              Top = 148
+              Width = 246
+              Height = 24
+              Color = clMenu
+              TabOrder = 2
+              BoundLabel.Indent = 0
+              BoundLabel.Font.Charset = DEFAULT_CHARSET
+              BoundLabel.Font.Color = clWindowText
+              BoundLabel.Font.Height = -11
+              BoundLabel.Font.Name = 'Tahoma'
+              BoundLabel.Font.Style = []
+              BoundLabel.Layout = sclLeft
+              BoundLabel.MaxWidth = 0
+              BoundLabel.UseSkinColor = True
+              SkinData.SkinSection = 'EDIT'
+              AboutVersaoAutor = #174'2010/v2.0 por J'#250'nior'
+              ZZ_NomeCampo = 'NOME_CURSO'
+              ZZ_RequeridoSair = False
+              ZZ_NomeChave = 'NOME_CURSO'
+              ZZ_Titulo = 'NOME_CURSO'
+              ZZ_RequeridoGravar = False
+              ZZ_ConsistirData = False
+              ZZ_ConsistirHora = False
+              ZZ_ZeroEsquerda = 0
+              ZZ_OrdemChave = 0
+              ZZ_Indice = True
+              ZZ_DesabilitarSair = False
+              ZZ_AutoIncremente = False
+              ZZ_CampoTabela = True
+              ZZ_LimpaCampo = True
+              ZZ_CampoProtegido = False
+              ZZ_AnulaEventos = False
+              ZZ_OrdemEditarOnExit = 0
+              ZZ_CampoUsuarioSistema = False
+              ZZ_AnulaDBEnter = False
+              ZZ_ParametroRPT = False
+              ZZ_ParametroRPTItem = 0
+              ZZ_ParametroDLLEntrada = False
+              ZZ_ParametroDLLEntradaItem = 0
+              ZZ_ParametroDLLSaida = False
+              ZZ_ParametroDLLSaidaItem = 0
+            end
+            object sEdit_Text3: TsEdit_Text
+              Left = 36
+              Top = 220
+              Width = 246
+              Height = 24
+              Color = clMenu
+              TabOrder = 3
+              BoundLabel.Indent = 0
+              BoundLabel.Font.Charset = DEFAULT_CHARSET
+              BoundLabel.Font.Color = clWindowText
+              BoundLabel.Font.Height = -11
+              BoundLabel.Font.Name = 'Tahoma'
+              BoundLabel.Font.Style = []
+              BoundLabel.Layout = sclLeft
+              BoundLabel.MaxWidth = 0
+              BoundLabel.UseSkinColor = True
+              SkinData.SkinSection = 'EDIT'
+              AboutVersaoAutor = #174'2010/v2.0 por J'#250'nior'
+              ZZ_NomeCampo = 'EMAIL_ALUNO'
+              ZZ_RequeridoSair = False
+              ZZ_Titulo = 'EMAIL_ALUNO'
+              ZZ_RequeridoGravar = False
+              ZZ_ConsistirData = False
+              ZZ_ConsistirHora = False
+              ZZ_ZeroEsquerda = 0
+              ZZ_OrdemChave = 0
+              ZZ_Indice = False
+              ZZ_DesabilitarSair = False
+              ZZ_AutoIncremente = False
+              ZZ_CampoTabela = True
+              ZZ_LimpaCampo = True
+              ZZ_CampoProtegido = False
+              ZZ_AnulaEventos = False
+              ZZ_OrdemEditarOnExit = 0
+              ZZ_CampoUsuarioSistema = False
+              ZZ_AnulaDBEnter = False
+              ZZ_ParametroRPT = False
+              ZZ_ParametroRPTItem = 0
+              ZZ_ParametroDLLEntrada = False
+              ZZ_ParametroDLLEntradaItem = 0
+              ZZ_ParametroDLLSaida = False
+              ZZ_ParametroDLLSaidaItem = 0
+            end
+            object sEdit_Text4: TsEdit_Text
+              Left = 330
+              Top = 88
+              Width = 129
+              Height = 24
+              Color = clMenu
+              TabOrder = 4
+              BoundLabel.Indent = 0
+              BoundLabel.Font.Charset = DEFAULT_CHARSET
+              BoundLabel.Font.Color = clWindowText
+              BoundLabel.Font.Height = -11
+              BoundLabel.Font.Name = 'Tahoma'
+              BoundLabel.Font.Style = []
+              BoundLabel.Layout = sclLeft
+              BoundLabel.MaxWidth = 0
+              BoundLabel.UseSkinColor = True
+              SkinData.SkinSection = 'EDIT'
+              AboutVersaoAutor = #174'2010/v2.0 por J'#250'nior'
+              ZZ_NomeCampo = 'DATA_NASCIMENTO_Aluno'
+              ZZ_RequeridoSair = False
+              ZZ_Titulo = 'DATA_NASCIMENTO_Aluno'
+              ZZ_RequeridoGravar = False
+              ZZ_ConsistirData = False
+              ZZ_ConsistirHora = False
+              ZZ_ZeroEsquerda = 0
+              ZZ_OrdemChave = 0
+              ZZ_Indice = False
+              ZZ_DesabilitarSair = False
+              ZZ_AutoIncremente = False
+              ZZ_CampoTabela = True
+              ZZ_LimpaCampo = True
+              ZZ_CampoProtegido = False
+              ZZ_AnulaEventos = False
+              ZZ_OrdemEditarOnExit = 0
+              ZZ_CampoUsuarioSistema = False
+              ZZ_AnulaDBEnter = False
+              ZZ_ParametroRPT = False
+              ZZ_ParametroRPTItem = 0
+              ZZ_ParametroDLLEntrada = False
+              ZZ_ParametroDLLEntradaItem = 0
+              ZZ_ParametroDLLSaida = False
+              ZZ_ParametroDLLSaidaItem = 0
+            end
+            object sEdit_Text8: TsEdit_Text
+              Left = 335
+              Top = 220
+              Width = 246
+              Height = 24
+              Color = clMenu
+              TabOrder = 5
+              BoundLabel.Indent = 0
+              BoundLabel.Font.Charset = DEFAULT_CHARSET
+              BoundLabel.Font.Color = clWindowText
+              BoundLabel.Font.Height = -11
+              BoundLabel.Font.Name = 'Tahoma'
+              BoundLabel.Font.Style = []
+              BoundLabel.Layout = sclLeft
+              BoundLabel.MaxWidth = 0
+              BoundLabel.UseSkinColor = True
+              SkinData.SkinSection = 'EDIT'
+              AboutVersaoAutor = #174'2010/v2.0 por J'#250'nior'
+              ZZ_NomeCampo = 'MATRICULA_ALUNO'
+              ZZ_RequeridoSair = False
+              ZZ_NomeChave = 'MATRICULA_ALUNO'
+              ZZ_Titulo = 'MATRICULA_ALUNO'
+              ZZ_RequeridoGravar = False
+              ZZ_ConsistirData = False
+              ZZ_ConsistirHora = False
+              ZZ_ZeroEsquerda = 0
+              ZZ_OrdemChave = 0
+              ZZ_Indice = True
+              ZZ_DesabilitarSair = False
+              ZZ_AutoIncremente = False
+              ZZ_CampoTabela = True
+              ZZ_LimpaCampo = True
+              ZZ_CampoProtegido = False
+              ZZ_AnulaEventos = False
+              ZZ_OrdemEditarOnExit = 0
+              ZZ_CampoUsuarioSistema = False
+              ZZ_AnulaDBEnter = False
+              ZZ_ParametroRPT = False
+              ZZ_ParametroRPTItem = 0
+              ZZ_ParametroDLLEntrada = False
+              ZZ_ParametroDLLEntradaItem = 0
+              ZZ_ParametroDLLSaida = False
+              ZZ_ParametroDLLSaidaItem = 0
+            end
+          end
+          object TabSheet2: TTabSheet
+            Caption = 'Matr'#237'cula em Disciplinas'
+            ImageIndex = 1
+            ExplicitWidth = 781
+            ExplicitHeight = 312
+            object PageControl3: TPageControl
+              Left = -8
+              Top = -28
+              Width = 789
+              Height = 348
+              ActivePage = TabSheet4
+              TabOrder = 0
+              object TabSheet4: TTabSheet
+                Caption = 'Matr'#237'cula em Disciplina'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -13
+                Font.Name = 'Tahoma'
+                Font.Style = [fsBold]
+                ParentFont = False
+                ExplicitTop = 28
+                object Label8: TLabel
+                  Left = 28
+                  Top = 27
+                  Width = 59
+                  Height = 13
+                  Caption = 'Disciplinas'
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clWindowText
+                  Font.Height = -11
+                  Font.Name = 'Tahoma'
+                  Font.Style = [fsBold]
+                  ParentFont = False
+                end
+                object Label7: TLabel
+                  Left = 224
+                  Top = 27
+                  Width = 22
+                  Height = 13
+                  Caption = 'Ano'
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clWindowText
+                  Font.Height = -11
+                  Font.Name = 'Tahoma'
+                  Font.Style = [fsBold]
+                  ParentFont = False
+                end
+                object Label11: TLabel
+                  Left = 410
+                  Top = 27
+                  Width = 55
+                  Height = 13
+                  Caption = 'Semestre'
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clWindowText
+                  Font.Height = -11
+                  Font.Name = 'Tahoma'
+                  Font.Style = [fsBold]
+                  ParentFont = False
+                end
+                object Button1: TButton
+                  Left = 195
+                  Top = 280
+                  Width = 237
+                  Height = 25
+                  Caption = 'Efetuar Matr'#237'cula'
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clWindowText
+                  Font.Height = -13
+                  Font.Name = 'Tahoma'
+                  Font.Style = [fsBold]
+                  ParentFont = False
+                  TabOrder = 0
+                  OnClick = Button1Click
+                end
+                object DBGrid3: TDBGrid
+                  Left = 21
+                  Top = 96
+                  Width = 613
+                  Height = 178
+                  DataSource = DS_MATRICULA
+                  ReadOnly = True
+                  TabOrder = 1
+                  TitleFont.Charset = DEFAULT_CHARSET
+                  TitleFont.Color = clWindowText
+                  TitleFont.Height = -13
+                  TitleFont.Name = 'Tahoma'
+                  TitleFont.Style = [fsBold]
+                  OnCellClick = DBGrid3CellClick
+                  OnKeyDown = DBGrid3KeyDown
+                  Columns = <
+                    item
+                      Expanded = False
+                      FieldName = 'MATRICULA_ALUNO'
+                      Title.Alignment = taCenter
+                      Width = 150
+                      Visible = True
+                    end
+                    item
+                      Expanded = False
+                      FieldName = 'NOME_DISCIPLINAS'
+                      Title.Alignment = taCenter
+                      Width = 200
+                      Visible = True
+                    end
+                    item
+                      Expanded = False
+                      FieldName = 'ANO'
+                      Title.Alignment = taCenter
+                      Width = 80
+                      Visible = True
+                    end
+                    item
+                      Expanded = False
+                      FieldName = 'SEMESTRE'
+                      Title.Alignment = taCenter
+                      Width = 80
+                      Visible = True
+                    end>
+                end
+                object sCombo_Box1: TsCombo_Box
+                  Left = 28
+                  Top = 49
+                  Width = 145
+                  Height = 21
+                  Alignment = taLeftJustify
+                  BoundLabel.Indent = 0
+                  BoundLabel.Font.Charset = DEFAULT_CHARSET
+                  BoundLabel.Font.Color = clWindowText
+                  BoundLabel.Font.Height = -11
+                  BoundLabel.Font.Name = 'Tahoma'
+                  BoundLabel.Font.Style = []
+                  BoundLabel.Layout = sclLeft
+                  BoundLabel.MaxWidth = 0
+                  BoundLabel.UseSkinColor = True
+                  SkinData.SkinSection = 'COMBOBOX'
+                  Color = clMenu
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clWindowText
+                  Font.Height = -11
+                  Font.Name = 'Tahoma'
+                  Font.Style = []
+                  ItemIndex = -1
+                  ParentFont = False
+                  TabOrder = 2
+                  AboutVersaoAutor = #174'2010/v2.0 por J'#250'nior'
+                  ZZ_NomeCampo = 'NOME_DISCIPLINAS'
+                  ZZ_RequeridoSair = False
+                  ZZ_NomeChave = 'NOME_DISCIPLINAS'
+                  ZZ_Titulo = 'NOME_DISCIPLINAS'
+                  ZZ_RequeridoGravar = False
+                  ZZ_OrdemChave = 0
+                  ZZ_Indice = False
+                  ZZ_DesabilitarSair = False
+                  ZZ_CampoTabela = False
+                  ZZ_LimpaCampo = True
+                  ZZ_CampoProtegido = False
+                  ZZ_AnulaEventos = False
+                  ZZ_OrdemEditarOnExit = 0
+                  ZZ_AnulaDBEnter = False
+                  ZZ_ParametroRPT = False
+                  ZZ_ParametroRPTItem = 0
+                  ZZ_ParametroDLLEntrada = False
+                  ZZ_ParametroDLLEntradaItem = 0
+                  ZZ_ParametroDLLSaida = False
+                  ZZ_ParametroDLLSaidaItem = 0
+                end
+                object sEdit_Text5: TsEdit_Text
+                  Left = 224
+                  Top = 46
+                  Width = 121
+                  Height = 24
+                  Color = clMenu
+                  TabOrder = 3
+                  BoundLabel.Indent = 0
+                  BoundLabel.Font.Charset = DEFAULT_CHARSET
+                  BoundLabel.Font.Color = clWindowText
+                  BoundLabel.Font.Height = -11
+                  BoundLabel.Font.Name = 'Tahoma'
+                  BoundLabel.Font.Style = []
+                  BoundLabel.Layout = sclLeft
+                  BoundLabel.MaxWidth = 0
+                  BoundLabel.UseSkinColor = True
+                  SkinData.SkinSection = 'EDIT'
+                  AboutVersaoAutor = #174'2010/v2.0 por J'#250'nior'
+                  ZZ_NomeCampo = 'ANO'
+                  ZZ_RequeridoSair = False
+                  ZZ_NomeChave = 'ANO'
+                  ZZ_Titulo = 'ANO'
+                  ZZ_RequeridoGravar = False
+                  ZZ_ConsistirData = False
+                  ZZ_ConsistirHora = False
+                  ZZ_ZeroEsquerda = 0
+                  ZZ_OrdemChave = 0
+                  ZZ_Indice = False
+                  ZZ_DesabilitarSair = False
+                  ZZ_AutoIncremente = False
+                  ZZ_CampoTabela = True
+                  ZZ_LimpaCampo = True
+                  ZZ_CampoProtegido = False
+                  ZZ_AnulaEventos = False
+                  ZZ_OrdemEditarOnExit = 0
+                  ZZ_CampoUsuarioSistema = False
+                  ZZ_AnulaDBEnter = False
+                  ZZ_ParametroRPT = False
+                  ZZ_ParametroRPTItem = 0
+                  ZZ_ParametroDLLEntrada = False
+                  ZZ_ParametroDLLEntradaItem = 0
+                  ZZ_ParametroDLLSaida = False
+                  ZZ_ParametroDLLSaidaItem = 0
+                end
+                object sEdit_Text6: TsEdit_Text
+                  Left = 410
+                  Top = 46
+                  Width = 121
+                  Height = 24
+                  Color = clMenu
+                  TabOrder = 4
+                  BoundLabel.Indent = 0
+                  BoundLabel.Font.Charset = DEFAULT_CHARSET
+                  BoundLabel.Font.Color = clWindowText
+                  BoundLabel.Font.Height = -11
+                  BoundLabel.Font.Name = 'Tahoma'
+                  BoundLabel.Font.Style = []
+                  BoundLabel.Layout = sclLeft
+                  BoundLabel.MaxWidth = 0
+                  BoundLabel.UseSkinColor = True
+                  SkinData.SkinSection = 'EDIT'
+                  AboutVersaoAutor = #174'2010/v2.0 por J'#250'nior'
+                  ZZ_NomeCampo = 'SEMESTRE'
+                  ZZ_RequeridoSair = False
+                  ZZ_NomeChave = 'SEMESTRE'
+                  ZZ_Titulo = 'SEMESTRE'
+                  ZZ_RequeridoGravar = False
+                  ZZ_ConsistirData = False
+                  ZZ_ConsistirHora = False
+                  ZZ_ZeroEsquerda = 0
+                  ZZ_OrdemChave = 0
+                  ZZ_Indice = False
+                  ZZ_DesabilitarSair = False
+                  ZZ_AutoIncremente = False
+                  ZZ_CampoTabela = True
+                  ZZ_LimpaCampo = True
+                  ZZ_CampoProtegido = False
+                  ZZ_AnulaEventos = False
+                  ZZ_OrdemEditarOnExit = 0
+                  ZZ_CampoUsuarioSistema = False
+                  ZZ_AnulaDBEnter = False
+                  ZZ_ParametroRPT = False
+                  ZZ_ParametroRPTItem = 0
+                  ZZ_ParametroDLLEntrada = False
+                  ZZ_ParametroDLLEntradaItem = 0
+                  ZZ_ParametroDLLSaida = False
+                  ZZ_ParametroDLLSaidaItem = 0
+                end
+              end
+              object TabSheet5: TTabSheet
+                Caption = 'Matr'#237'cula em Disciplinas'
+                ImageIndex = 1
+              end
+              object TabSheet6: TTabSheet
+                Caption = 'Notas'
+                ImageIndex = 2
+                object Label21: TLabel
+                  Left = 286
+                  Top = 3
+                  Width = 105
+                  Height = 33
+                  Caption = 'Boletim'
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clWindowText
+                  Font.Height = -27
+                  Font.Name = 'Tahoma'
+                  Font.Style = [fsBold]
+                  ParentFont = False
+                end
+                object DBGrid1: TDBGrid
+                  Left = 3
+                  Top = 42
+                  Width = 775
+                  Height = 224
+                  TabOrder = 0
+                  TitleFont.Charset = DEFAULT_CHARSET
+                  TitleFont.Color = clWindowText
+                  TitleFont.Height = -11
+                  TitleFont.Name = 'Tahoma'
+                  TitleFont.Style = []
+                  Columns = <
+                    item
+                      Expanded = False
+                      FieldName = 'MATRICULA_ALUNO'
+                      Title.Alignment = taCenter
+                      Title.Font.Charset = DEFAULT_CHARSET
+                      Title.Font.Color = clWindowText
+                      Title.Font.Height = -13
+                      Title.Font.Name = 'Tahoma'
+                      Title.Font.Style = [fsBold]
+                      Width = 250
+                      Visible = True
+                    end
+                    item
+                      Alignment = taCenter
+                      Expanded = False
+                      FieldName = 'ID_DISCIPLINA'
+                      Title.Alignment = taCenter
+                      Title.Font.Charset = DEFAULT_CHARSET
+                      Title.Font.Color = clWindowText
+                      Title.Font.Height = -13
+                      Title.Font.Name = 'Tahoma'
+                      Title.Font.Style = [fsBold]
+                      Width = 250
+                      Visible = True
+                    end
+                    item
+                      Expanded = False
+                      FieldName = 'NOTA'
+                      Title.Alignment = taCenter
+                      Title.Font.Charset = DEFAULT_CHARSET
+                      Title.Font.Color = clWindowText
+                      Title.Font.Height = -13
+                      Title.Font.Name = 'Tahoma'
+                      Title.Font.Style = [fsBold]
+                      Width = 120
+                      Visible = True
+                    end
+                    item
+                      Expanded = False
+                      FieldName = 'M'#201'DIA'
+                      Title.Alignment = taCenter
+                      Title.Font.Charset = DEFAULT_CHARSET
+                      Title.Font.Color = clWindowText
+                      Title.Font.Height = -13
+                      Title.Font.Name = 'Tahoma'
+                      Title.Font.Style = [fsBold]
+                      Width = 136
+                      Visible = True
+                    end>
+                end
+                object Button4: TButton
+                  Left = 296
+                  Top = 272
+                  Width = 193
+                  Height = 45
+                  Caption = 'Gerar Boletim'
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clWindowText
+                  Font.Height = -16
+                  Font.Name = 'Tahoma'
+                  Font.Style = [fsBold]
+                  ParentFont = False
+                  TabOrder = 1
+                end
+              end
+            end
+          end
+          object TabSheet3: TTabSheet
+            Caption = 'Boletim do Aluno'
+            ImageIndex = 2
+            ExplicitLeft = 0
+            ExplicitHeight = 312
+            object Button2: TButton
+              Left = 175
+              Top = 279
+              Width = 237
+              Height = 25
+              Caption = 'Gerar Boletim'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWindowText
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = [fsBold]
+              ParentFont = False
+              TabOrder = 0
+            end
+            object DBGrid2: TDBGrid
+              Left = 17
+              Top = 40
+              Width = 613
+              Height = 233
+              DataSource = DS_BOLETIM
+              TabOrder = 1
+              TitleFont.Charset = DEFAULT_CHARSET
+              TitleFont.Color = clWindowText
+              TitleFont.Height = -11
+              TitleFont.Name = 'Tahoma'
+              TitleFont.Style = []
+              Columns = <
+                item
+                  Expanded = False
+                  FieldName = 'MATRICULA_ALUNO'
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clWindowText
+                  Font.Height = -11
+                  Font.Name = 'Tahoma'
+                  Font.Style = [fsBold]
+                  Title.Alignment = taCenter
+                  Title.Font.Charset = DEFAULT_CHARSET
+                  Title.Font.Color = clWindowText
+                  Title.Font.Height = -13
+                  Title.Font.Name = 'Tahoma'
+                  Title.Font.Style = [fsBold]
+                  Width = 150
+                  Visible = True
+                end
+                item
+                  Expanded = False
+                  FieldName = 'NOME_DISCIPLINAS'
+                  Title.Alignment = taCenter
+                  Title.Font.Charset = DEFAULT_CHARSET
+                  Title.Font.Color = clWindowText
+                  Title.Font.Height = -13
+                  Title.Font.Name = 'Tahoma'
+                  Title.Font.Style = [fsBold]
+                  Width = 200
+                  Visible = True
+                end
+                item
+                  Expanded = False
+                  FieldName = 'NOTA'
+                  Title.Alignment = taCenter
+                  Title.Font.Charset = DEFAULT_CHARSET
+                  Title.Font.Color = clWindowText
+                  Title.Font.Height = -13
+                  Title.Font.Name = 'Tahoma'
+                  Title.Font.Style = [fsBold]
+                  Width = 80
+                  Visible = True
+                end
+                item
+                  Expanded = False
+                  FieldName = 'M'#201'DIA'
+                  Title.Alignment = taCenter
+                  Title.Font.Charset = DEFAULT_CHARSET
+                  Title.Font.Color = clWindowText
+                  Title.Font.Height = -13
+                  Title.Font.Name = 'Tahoma'
+                  Title.Font.Style = [fsBold]
+                  Width = 80
+                  Visible = True
+                end>
+            end
+          end
+        end
+      end
+    end
+  end
+  inherited sCoolBar1: TsPanel
+    Width = 712
+    ExplicitWidth = 836
+    inherited pnFechar: TsSpeedButton
+      Left = 641
+      ExplicitLeft = 765
+    end
+  end
+  inherited Sp_Stored: TADOStoredProc
+    Left = 928
+    Top = 80
+  end
+  inherited DS_Sp_Stored: TDataSource
+    Left = 928
+    Top = 192
+  end
+  inherited Sp_LOG_Inserir: TADOStoredProc
+    Left = 1080
+  end
+  inherited Sp_StoredLocalizar: TADOStoredProc
+    Left = 1096
+    Top = 272
+  end
+  inherited Q_Configuracao: TADOQuery
+    Left = 1096
+    Top = 424
+  end
+  inherited DBEnter1: TsEnter
+    Left = 1088
+    Top = 528
+  end
+  inherited DBChamaLocalizar1: TsChamaLocalizar
+    Left = 1102
+    Top = 368
+  end
+  inherited NomeStored1: TsNomeStored
+    NomeStoredLocalizar = 'stb_localizar_aluno_lais'
+    NomeProjeto = 'UniversidadeProdev'
+    Left = 928
+    Top = 137
+  end
+  inherited ADOConnection_Configuracao: TADOConnection
+    Left = 1096
+    Top = 480
+  end
+  inherited ADOConnection_Recursos: TADOConnection
+    Left = 1072
+    Top = 88
+  end
+  inherited ADOConnection_Sistema: TADOConnection
+    Left = 1032
+    Top = 80
+  end
+  inherited Crpe1: TCrpe
+    Left = 1102
+    Top = 320
+  end
+  inherited ADOConnection_Modulo_Secundario: TADOConnection
+    Left = 1056
+    Top = 192
+  end
+  inherited sSkinManager1: TsSkinManager
+    IsDefault = False
+    Left = 1064
+    Top = 144
+  end
+  object SP_MATRICULA: TADOStoredProc
+    Connection = ADOConnection_Sistema
+    Parameters = <>
+    Left = 928
+    Top = 248
+  end
+  object DS_MATRICULA: TDataSource
+    DataSet = SP_MATRICULA
+    Left = 928
+    Top = 304
+  end
+  object DS_BOLETIM: TDataSource
+    DataSet = SP_BOLETIM
+    Left = 920
+    Top = 432
+  end
+  object SP_BOLETIM: TADOStoredProc
+    Connection = ADOConnection_Sistema
+    CommandTimeout = 0
+    Parameters = <>
+    Left = 920
+    Top = 368
+  end
+end

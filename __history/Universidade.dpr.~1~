@@ -1,0 +1,16 @@
+program Universidade;
+
+uses
+  Forms,
+  uTelaPadrao01 in 'C:\DELPHI-LIB\Grupo Recursos 2010\Formulario\uTelaPadrao01.pas' {FTelaPadrao01},
+  uUniversidade in 'uUniversidade.pas' {FUniversidade};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFTelaPadrao01, FTelaPadrao01);
+  Application.CreateForm(TFUniversidade, FUniversidade);
+  Application.Run;
+end.
